@@ -1,0 +1,253 @@
+* {
+    padding:0.2vw;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: black;
+  background-image: url('../images/Comp\ 1_1.gif');
+  background-repeat: infinite;
+  background-position:fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.flex-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: horizontal;
+    gap: 10.6vh;
+    width: 100vw;
+    margin-left: 1%;
+}
+
+.item {
+  height: 50px;
+  margin: 1vw;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projects-wrapper{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: small;
+    font-weight: regular;
+}
+
+button1 {
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  color: rgb(149, 149, 149);
+  text-decoration: none;
+}
+
+button1:hover {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none; }
+
+.projects-wrapper2{
+    width: 80%;
+    margin-left: 35%;
+    margin-top: -41.2%;
+    font-size: small;
+    font-weight: regular;
+}
+
+.container{
+  width: 1100px;
+  height: 450px;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 7vh;
+}
+
+.project-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+h1{
+  font-family: "the-seasons", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.3em;
+  text-align: left;
+  margin-top: 20.5%;
+  color: rgb(253, 253, 253);
+}
+
+h2{
+  font-family: "the-seasons", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  text-align: left;
+  margin-top: -1.2%;
+  color: rgb(255, 255, 255);
+}
+
+.button2{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2em;
+  font-family: "the-seasons", sans-serif;
+  font-weight: lighter;
+  color: rgb(149, 149, 149);
+  text-decoration: none;
+  text-align: left;    
+  padding-left: 0;    
+  text-indent: 0;    
+  display: block;      
+  width: fit-content; 
+}
+
+a {
+  text-decoration: none; /* Removes the underline from all links */
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.parent-container {
+    display: flex;
+    flex-direction: row;     
+    align-items: stretch;    
+    gap: 1%;               
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;;
+}
+
+.info-wrapper {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: transparent;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    margin-top: -4.5%;
+    /* Height is now managed by parent stretch */
+}
+
+.description-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    color: rgb(149, 149, 149);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+}
+/*
+.arr{
+  font-family: 'Times New Roman', Times, serif;
+  position: fixed;
+  bottom: 0.5vh;
+  margin-bottom: 0.3%;
+  margin-left: 0.6%;
+  font-size: smaller;
+  color: rgb(255, 255, 255);
+}
+*/
+
+.wrapper {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  left: 10.5vw;
+  top: -5vh;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+}
+
+.card {
+  overflow: hidden;
+  min-width: 60vw;
+  height: 60vh;
+  position: sticky;
+  left: 10vw;
+  top: 5vh;
+  /*box-shadow: -15px 0 10px -10px rgba(0, 0, 0, 0.4);*/
+  border-radius: 10px;
+  margin-bottom: -10vw;
+  margin-right: 20vw;
+  background-size: cover;
+  background-color: white;
+}
+
+.imageresize{
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  object-fit: contain;
+  transform: scale(1.01);
+  border-radius: inherit;
+  display: block;
+}
+
+.card:nth-child(1n) {
+  left: 20px; 
+  left: 104px; 
+  top: 85px; 
+  transform: rotate(0deg); 
+}
+
+.card:nth-child(2n) {
+  left: 40px;
+  left: 152px;
+  top: 42px;
+  transform: rotate(1deg);
+}
+
+.card:nth-child(3n) {
+  left: 60px;
+  left: 12px;
+  top: 110px;
+  transform: rotate(-1deg);
+}
+
+.card:nth-child(4n) {
+  left: 80px;
+  left: 188px;
+  top: 25px;
+  transform: rotate(0deg);
+}
