@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <title>MISCUE</title>
+    <link rel="stylesheet" href="https://use.typekit.net/apz3hja.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jwx7oll.css">
+    
+</head>
+
+<body> 
+    <link rel="stylesheet" href="https://use.typekit.net/apz3hja.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../javascript/js.js"></script>
+    <button3 type="button" onclick="goToRandomPage()"></button3>
+
+<script>
+function goToRandomPage() {
+  const pages = [
+    'projectshtml/infooverload.html',
+    'projectshtml/nn.html',
+    'projectshtml/nunchi.html',
+    'projectshtml/pidgnquest.html',
+    'projectshtml/src.html'
+  ];
+
+  const randomIndex = Math.floor(Math.random() * pages.length);
+  const randomPage = pages[randomIndex];
+
+  console.log("Redirecting to: " + randomPage); // This helps you debug!
+  window.location.href = randomPage;
+}
+</script>
+</body>
+
+    <style>
+        body, html {
+        overflow: hidden; 
+        height: 100%;     
+        margin: 0;       
+        }
+        
+        .flex-wrapper {
+            display: flex;}
+            
+        .item {
+            width: 20vh;}
+    </style>
+
+<div class="flex-wrapper">
+
+    <div class="item">
+<p><a id="doc-link" href="/index.html"> 
+    <button>Home</button>
+    </a></p>
+    </div>
+
+
+    <div class="item">
+<p><a id="doc-link" href="html/about.html"> 
+    <button>About</button>
+    </a></p>
+    </div>
+
+<div class="item">
+<p><a id="doc-link" href="html/catalogue.html"> 
+    <button>Catalogue</button>
+    </a></p>
+</div>
+
+    
+    <div class="item">
+<p><a id="doc-link" href="html/submit-project.html"> 
+    <button>Add to *Cue</button>
+    </a></p>
+    </div>
+</div>
+
+<img class="image" src="/images/miscuebaseline.png" alt="Title Card">
+
+<!-- 
+<div class="arr">
+    <p> © 2026 Miscue Live. All rights reserved </p>
+</div>
+-->
+
+
+
+</html>

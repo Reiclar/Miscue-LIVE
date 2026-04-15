@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/submit-project.css">
+    <title>MISCUE</title>
+    <link rel="stylesheet" href="https://use.typekit.net/apz3hja.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jwx7oll.css">
+</head>
+
+<body> 
+    <link rel="stylesheet" href="https://use.typekit.net/apz3hja.css">
+</body>
+
+    <style>
+        body, html {
+        overflow: hidden; 
+        height: 100%;     
+        margin: 0;       
+        }
+        
+        .flex-wrapper {
+            display: flex;}
+            
+        .item {
+            width: 20vh;}
+    </style>
+
+</html>
+
+<div class="flex-wrapper">
+
+    <div class="item">
+<p><a id="doc-link" href="/index.html"> 
+    <button>Home</button>
+    </a></p>
+    </div>
+
+
+    <div class="item">
+<p><a id="doc-link" href="/html/about.html"> 
+    <button>About</button>
+    </a></p>
+    </div>
+
+<div class="item">
+<p><a id="doc-link" href="/html/catalogue.html"> 
+    <button>Catalogue</button>
+    </a></p>
+</div>
+
+    
+    <div class="item">
+<p><a id="doc-link" href="/html/submit-project.html"> 
+    <button>Add to *Cue</button>
+    </a></p>
+    </div>
+</div>
+
+<div class="class-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <h1>Submit your project to the Cue</h1>
+        <p>Have a project that you think would be a good fit for Miscue? 
+        <br>Fill out the form below and we will review it for inclusion in our catalogue.</p>
+
+        <div class="notice">*Note that this form can only be submitted using a secure network.</div>
+       
+        <input type="hidden" name="access_key" value="d7a6fad9-fcf5-4637-be3d-b66f624af50f">
+
+        <input type="text" name="name" placeholder="First and Last Name" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+        <input type="text" name="project_name" placeholder="Project Name" class="contact-inputs" required>
+        <textarea name="message" placeholder="Project Description" class="contact-inputs" required></textarea>
+        <input type="text" name="project_link" placeholder="Project Link (Optional)" class="contact-inputs">
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+
+<!-- 
+<div class="arr">
+    <p> © 2026 Miscue Live. All rights reserved </p>
+</div>
+-->
+
+
+</html>
